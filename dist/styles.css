@@ -1,0 +1,25 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url("/fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url("/fonts/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+  font-family: RobotoItalic;
+  src: url("/fonts/RobotoCondensed-Italic.ttf");
+}
+body {
+  font-family: RobotoRegular, sans-serif;
+}
+/* COLOR Variables */
+/* The default color of the font. This is slightly different than a black font. */
+/* Light tint. When used, use black for text */
+/* Dark tint. When used, use white for text */
+/* Light theme colors */
+/* Dark theme colors */
+/* Theme colors */
+/* Background color for input/select fields */
+/* Background color for disabled buttons and icons */
+/* Status colors */

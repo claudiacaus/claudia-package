@@ -1,0 +1,29 @@
+{
+  "name": "claudiateststyles",
+  "version": "1.0.20",
+  "description": "A Vue 3 LESS package",
+  "main": "dist/styles.css",
+  "files": [
+    "dist/styles.css",
+    "src/assets/images/*",
+    "src/fonts/*",
+    "src/styles/*",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc src/styles/styles.less dist/styles.css"
+  },
+  "keywords": [
+    "vue",
+    "css",
+    "less"
+  ],
+  "author": "Claudia Pereira Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "less": "^4.1.3",
+    "node-sass": "^9.0.0"
+  }
+}

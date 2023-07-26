@@ -1,0 +1,75 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url("/fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url("/fonts/RobotoCondensed-Bold.ttf");
+}
+
+@font-face {
+  font-family: RobotoItalic;
+  src: url("/fonts/RobotoCondensed-Italic.ttf");
+}
+
+body {
+  font-family: @b10-font-regular;
+}
+
+/* COLOR Variables */
+@b10-font-regular: RobotoRegular, sans-serif;
+@b10-font-bold: RobotoBold, sans-serif;
+@b10-font-italic: RobotoItalic, sans-serif;
+
+/* The default color of the font. This is slightly different than a black font. */
+@b10-font-color: #2c3e50;
+
+@b10-primary-color: #31b0d5;
+@b10-primary-text-color: #fff;
+/* Light tint. When used, use black for text */
+@b10-primary-tint-light: #caf3ff;
+/* Dark tint. When used, use white for text */
+@b10-primary-tint-dark: #204d74;
+
+/* Light theme colors */
+@b10-light-background-color: #ececec;
+@b10-light-background-tint: #f4f2f3;
+@b10-light-panel-color: #fff;
+@b10-light-text-color: @b10-font-color;
+@b10-light-monochrome-color: #fff;
+
+/* Dark theme colors */
+@b10-dark-background-color: #303030;
+@b10-dark-background-tint: #424242;
+@b10-dark-panel-color: #626262;
+@b10-dark-text-color: #dfdfdf;
+@b10-dark-monochrome-color: #000;
+
+/* Theme colors */
+@b10-text-color: @b10-light-text-color;
+@b10-background-color: @b10-light-background-color;
+@b10-panel-color: @b10-light-panel-color;
+@b10-background-tint: @b10-light-background-tint;
+@b10-monochrome-color: @b10-light-monochrome-color;
+
+/* Background color for input/select fields */
+@b10-disabled: #dfdfdf;
+/* Background color for disabled buttons and icons */
+@b10-disabled-button: #a3a3a3;
+
+/* Status colors */
+@b10-error-color: red;
+@b10-warning-color: orange;
+@b10-ok-color: #0c0;
+
+/* B&W + BRAND */
+@b10-brand-yellow: #ffd60a;
+@b10-brand-cyan: #00ffff;
+@b10-brand-green: #c2d212;
+
+/* CTA + ROG */
+@b10-cta-rog-red: #ed2824;
+@b10-cta-rog-green: #34c759;
+@b10-cta-rog-blue: #007aff;
+@b10-cta-rog-orange: #ff9405;
